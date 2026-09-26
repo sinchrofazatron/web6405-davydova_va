@@ -14,13 +14,11 @@
 
 © ПМИ.
 
+![](images/3k.jpg)
 
+![](images/MSU.jpg)
 
-!\[](images/3k.jpg)
-
-!\[](images/MSU.jpg)
-
-!\[](images/Moscow\_city.jpg)
+![](images/Moscow_city.jpg)
 
 
 
