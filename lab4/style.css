@@ -1,0 +1,282 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;  
+  color: #0f031e; 
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.registration-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden; 
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+h1 {
+  width: 500px;
+  margin: 0 auto 30px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+}
+
+.logo {
+  /* padding-top: 65px; */
+  width: 200px;
+  height: auto;
+  display: block;
+}
+
+.input {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.input label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.input input {
+  width: 100%;
+  padding: 15px 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+} 
+
+.auth-switch {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+.reg-a {
+  text-decoration: none;
+  color: white;
+}
+
+.aside-panel {
+  width: 250px;
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  position: fixed;
+  box-sizing: border-box;
+}
+
+.aside-panel-logo {
+  width: 100px;
+  height: auto;
+}
+
+.aside-panel-nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.aside-panel-link {
+  padding: 20px 20px;
+  color: #333;
+  font-size: 15px;
+  font-weight: 500;
+} 
+
+.main-content {
+  margin-left: 250px;
+  padding: 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content-header {
+  margin-bottom: 20px;
+}
+
+.main-content-header h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #0f031e;
+  /* margin-bottom: 20px; */
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  /* flex-grow: 1;  */
+}
+
+.post {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;  
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  
+}
+
+.post-author {
+  display: flex;
+  align-items: center;
+}
+
+.post-author-name {
+  font-size: 16px;
+  color: #0f031e;
+  font-weight: bold;
+  margin-left: 10px; 
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.post-content {
+  font-size: 14px;
+  color: #0f031e;
+  margin-top: 25px;
+  /* line-height: 1.5; */
+} 
+
+.create-post {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position: sticky;  
+  /* gap: 10px; */
+  margin-top: 20px;
+  bottom: 20px;
+}
+
+.create-post-input {
+  background-color: #f0f2f5;
+  /* flex-grow: 1; */
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+}
+
+.create-post-btn {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-left: 10px;
+}
+
+.create-post-btn:hover {
+  background-color: #0056b3;
+}
+
+.friends-table {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 15px;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.friends-table th,
+.friends-table td {
+  padding: 15px;
+  border-bottom: 1px solid #f0f2f5;
+  font-size: 14px;
+}
+
+.friends-table th {
+  background-color: #f7f8fa;
+  color: #0f031e;
+  font-size: 13px;
+}
+
+.friends-table th.name-col,
+.friends-table td.name-col {
+  text-align: left;
+}
+
+.friends-table th.status-col,
+.friends-table td.status-col {
+  text-align: center;
+}
+
+.friends-table th.city-col,
+.friends-table td.city-col {
+  text-align: center;
+}
+
+.friends-table th.action-col,
+.friends-table td.action-col {
+  text-align: right;
+}
+
+/* Ссылка в таблице */
+.friends-table a {
+  color: #007bff;
+  text-decoration: none;
+}
+
