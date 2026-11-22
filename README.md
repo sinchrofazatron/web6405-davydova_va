@@ -82,20 +82,20 @@
 
 2 сраницы: страница со списокм всех сообщений и отдельный чат. Верстка осуществлялась с помощью Flexbox;
 
-![](images/messages.png)
+![](lab4/images/messages.png)
 
-![](images/chat.png)
+![](lab4/images/chat.png)
 
 страница профиля пользователя. Верстка осуществлялась с помощью Grid.
 
-![](images/profile.png)
+![](lab4/images/profile.png)
 
 Также все используемые цвета стали задаваться с помощью переменных CSS.
 
 Была реализована анимация в виде градиента на страницах регистрации и авторизации:
 
-![](images/registration.png)
+![](lab4/images/registration.png)
 
-![](images/authorization.png)
+![](lab4/images/authorization.png)
 
 Был создан класс, содержащий конструктор и метод форматированного вывода на консоль
