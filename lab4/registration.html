@@ -16,7 +16,7 @@
 
         <div>
             <h1>Создать аккаунт</h1>
-            <form>
+            <form id="form">
                 <div class="input">
                     <label for="username">Имя пользователя</label>
                     <input type="text" id="username" placeholder="Михаил Булгаков" required>
@@ -32,9 +32,7 @@
                     <input type="password" id="password" placeholder="123456" required>
                 </div>
                 
-                <button class="btn">
-                    <a href="main_screen.html" class="reg-a">Зарегистрироваться</a>
-                </button>
+                <button type="submit" class="btn" id="submit-btn">Зарегистрироваться</button>
 
                 <div class="auth-switch"> 
                     <a href="authorization.html">Войти</a>
@@ -45,5 +43,6 @@
             
         </div>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>

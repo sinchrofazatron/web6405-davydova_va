@@ -8,6 +8,11 @@
   --color-link: #666;
   --color-table-header: #f7f8fa;
   --color-input-label: #333;
+  --color-gradient: #b3d4ff;
+  --color-gradient_2: #c2f0f7;
+  --color-shadow_1: rgba(0, 123, 255, 0);
+  --color-shadow_2: rgba(0, 123, 255, 0.3);
+  --color-shadow_3: rgba(0, 123, 255, 0);
 }
 
 body {
@@ -602,7 +607,7 @@ a {
 }
 
 .registration-main {
-  background: linear-gradient(-45deg, #f0f2f5, #b3d4ff, #007bff, #c2f0f7);
+  background: linear-gradient(-45deg, var(--color-bg), var(--color-gradient), var(--color-button), var(--color-gradient_2));
   background-size: 400% 400%;
   animation: breathe-bg 12s ease-in-out infinite;
 }
@@ -626,14 +631,14 @@ a {
 @keyframes breathe-logo-aside {
   0% {
     transform: scale(1);
-    filter: drop-shadow(0 0 0px rgba(0, 123, 255, 0));
+    filter: drop-shadow(0 0 0px var(--color-shadow_1));
   }
   50% {
     transform: scale(1.08); 
-    filter: drop-shadow(0 5px 10px rgba(0, 123, 255, 0.3));
+    filter: drop-shadow(0 5px 10px var(--color-shadow_2));
   }
   100% {
     transform: scale(1);
-    filter: drop-shadow(0 0 0px rgba(0, 123, 255, 0));
+    filter: drop-shadow(0 0 0px var(--color-shadow_3));
   }
 }
