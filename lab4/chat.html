@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="социальная сеть, сообщения, мессенджер, О2">
+    <meta name="description" content="Сообщения для социальной сети О2. Общайтесь с друзьями и получайте уведомления о новых сообщениях.">
+    <title>O2: Чат</title>
+</head>
+
+<body>
+    <aside class="aside-panel">
+        <img src="images/logo-no-bg-preview.png" class="aside-panel-logo" alt="Логотип О2">
+        <nav class="aside-panel-nav">
+            <a href="profile.html" class="aside-panel-link">
+                <span>Профиль</span>
+            </a>
+            <a href="main_screen.html" class="aside-panel-link">
+                <span>Лента</span>
+            </a>
+            <a href="messages.html" class="aside-panel-link">
+                <span>Сообщения</span>
+            </a>
+            <a href="friends.html" class="aside-panel-link">
+                <span>Друзья</span>
+            </a>
+        </nav>
+    </aside>
+
+    <main class="main-content chat">
+    
+        <header class="chat__header">
+            
+            <div class="chat__header-side">
+                <a href="messages.html" class="chat__back">Назад</a>
+            </div>
+            
+            
+            <div class="chat__user-info">
+                <img src="images/avatar1.jpg" class="chat__avatar" alt="Sad Cat">
+                <h2 class="chat__title">Sad Cat</h2>
+            </div>
+
+            <div class="chat__header-side"></div>
+
+        </header>
+
+        <section class="chat__messages">
+            <div class="chat__message chat__message--out">Привет, как дела?</div>
+            <div class="chat__message chat__message--in">Да норм, че. Наловил я кароч мышов. У тя че как?</div>
+            <div class="chat__message chat__message--out">Да вот, делаю лабу по вебу</div>
+            <div class="chat__message chat__message--in">И че, получается?</div>
+            <div class="chat__message chat__message--out">Ну, такое</div>
+        </section>
+
+        <form class="chat__form">
+            <input type="text" id="message" required class="chat__input" placeholder="Привет!">
+            <button type="submit" class="chat__send">Отправить</button>
+        </form>
+    </main>
+
+</body>
+</html>
